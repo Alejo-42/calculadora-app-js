@@ -16,7 +16,7 @@ function  calcular() {
     // Y finalmente se muestra el resultado en la pantalla
     document.getElementById('pantalla').value = resultado
 }
-
+// Funcion para eliminar el ultimo digito ingresado
 function deshacer(){
     const valorPantalla = document.getElementById('pantalla').value
     document.getElementById('pantalla').value = valorPantalla.slice(0,-1)
